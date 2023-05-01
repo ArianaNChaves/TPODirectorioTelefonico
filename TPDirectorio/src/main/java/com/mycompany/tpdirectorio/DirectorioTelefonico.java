@@ -1,5 +1,5 @@
 //package practicoobligatorio6;
-
+package com.mycompany.tpdirectorio;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

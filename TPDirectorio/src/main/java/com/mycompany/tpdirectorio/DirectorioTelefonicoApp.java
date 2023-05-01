@@ -1,6 +1,6 @@
 
 //package practicoobligatorio6;
- 
+ package com.mycompany.tpdirectorio;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

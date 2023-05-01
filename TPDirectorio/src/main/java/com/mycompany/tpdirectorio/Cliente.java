@@ -1,5 +1,5 @@
 //package practicoobligatorio6;
-
+package com.mycompany.tpdirectorio;
 public class Cliente {
 
     private String dni;

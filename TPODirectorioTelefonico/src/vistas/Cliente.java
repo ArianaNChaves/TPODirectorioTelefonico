@@ -1,4 +1,4 @@
-//package practicoobligatorio6;
+package vistas;
 
 public class Cliente {
 
@@ -8,7 +8,7 @@ public class Cliente {
     private String ciudad;
     private String direccion;
 
-    public Cliente(String dni, String nombre, String apellido, String ciudad, String direccion, String direccion1) {
+    public Cliente(String dni, String nombre, String apellido, String ciudad, String direccion) {
         this.dni = dni;
         this.nombre = nombre;
         this.apellido = apellido;

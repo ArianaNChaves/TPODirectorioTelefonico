@@ -49,9 +49,15 @@ public class DirectorioTelefonico {
         return clientesCiudad;
     }
 
-    public boolean borrarCliente(String telefono) {
-        Cliente cliente = clientes.get(telefono);
-        if (cliente != null) {
+    public boolean borrarCliente(Cliente cliente) {
+        String telefono = null;
+        for (Map.Entry<String, Cliente> entry : clientes.entrySet()) {
+            if (entry.getValue().equals(cliente)) {
+                telefono = entry.getKey();
+                break;
+            }
+        }
+        if (telefono != null) {
             clientes.remove(telefono);
             return true;
         } else {
